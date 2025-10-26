@@ -4,6 +4,10 @@
 # But include Python files
 !*.py
 
+# But include Markdown files (documentation)
+!*.md
+!README.md
+
 # Include directories (so we can traverse them)
 !*/
 
