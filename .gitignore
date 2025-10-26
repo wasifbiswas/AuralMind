@@ -69,10 +69,7 @@ dataset/
 *credential*
 config.json
 .env
-
-# Exclude .gitignore itself
 .gitignore
-
 # Exclude conda environments
 .conda/
 *.conda
