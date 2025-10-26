@@ -7,9 +7,6 @@
 # Include directories (so we can traverse them)
 !*/
 
-# Include gitignore itself
-!.gitignore
-
 # Exclude common Python artifacts even if they match *.py pattern
 __pycache__/
 *.pyc
@@ -72,3 +69,23 @@ dataset/
 *credential*
 config.json
 .env
+
+# Exclude .gitignore itself
+.gitignore
+
+# Exclude conda environments
+.conda/
+*.conda
+
+# Exclude test/temporary files
+test_*.wav
+test_output.*
+temp/
+tmp/
+
+# Exclude large dataset directories
+Acted Emotional Speech Dynamic Database*/
+cv-corpus*/
+downloaded_dataset/
+raw_data/
+clean_audio/
