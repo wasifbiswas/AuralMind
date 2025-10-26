@@ -1,0 +1,74 @@
+# Ignore everything by default
+*
+
+# But include Python files
+!*.py
+
+# Include directories (so we can traverse them)
+!*/
+
+# Include gitignore itself
+!.gitignore
+
+# Exclude common Python artifacts even if they match *.py pattern
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# Exclude virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# Exclude IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Exclude OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude log files
+*.log
+
+# Exclude any audio/data files
+*.mp3
+*.wav
+*.flac
+*.ogg
+*.m4a
+*.aac
+audio_data/
+dataset/
+
+# Exclude model files
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+*.model
+
+# Exclude Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Exclude any credentials or secrets
+*.key
+*.pem
+*secret*
+*credential*
+config.json
+.env
