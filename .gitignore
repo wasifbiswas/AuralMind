@@ -8,8 +8,39 @@
 !*.md
 !README.md
 
+# Include PowerShell scripts
+!*.ps1
+
+# Include requirement files
+!requirements*.txt
+
 # Include directories (so we can traverse them)
 !*/
+
+# ============================================================
+# INCLUDE MODEL FILES AND VISUALIZATIONS FOR GITHUB
+# ============================================================
+
+# Include all model directories
+!models_IEMOCAP/
+!models_IEMOCAP/*
+!models_CommonDB/
+!models_CommonDB/*
+
+# Include visualization images (PNG files in model directories)
+!*.png
+!comparative_analysis.png
+
+# Include evaluation results
+!evaluation_results.json
+!*.json
+
+# Include classification reports
+!classification_report.txt
+!*.txt
+
+# Include evaluation markdown reports
+!EVALUATION_REPORT.md
 
 # Exclude common Python artifacts even if they match *.py pattern
 __pycache__/
@@ -45,23 +76,50 @@ desktop.ini
 # Exclude log files
 *.log
 
-# Exclude any audio/data files
+# Exclude audio/data files but keep feature extraction results
 *.mp3
 *.wav
 *.flac
 *.ogg
 *.m4a
 *.aac
-audio_data/
-dataset/
 
-# Exclude model files
+# Exclude raw audio data directories
+audio_data/raw_data/
+audio_data/clean_audio/
+
+# But KEEP the features directory structure (without the .npy files themselves)
+!audio_data/
+!audio_data/features/
+!audio_data/features/*/
+
+# Exclude large numpy feature files from git (too large for GitHub)
+*.npy
+
+# Exclude embeddings directories (contain large .npy files)
+embeddings_IEMOCAP/
+embeddings_CommonDB/
+
+# Exclude model weight files (too large for GitHub)
+# Note: Trained models should be stored in GitHub Releases or external storage
 *.pt
 *.pth
 *.h5
 *.pkl
 *.joblib
 *.model
+
+# But KEEP the model directories structure and metadata files
+!models_IEMOCAP/
+!models_IEMOCAP/*.json
+!models_IEMOCAP/*.txt
+!models_IEMOCAP/*.md
+!models_IEMOCAP/*.png
+!models_CommonDB/
+!models_CommonDB/*.json
+!models_CommonDB/*.txt
+!models_CommonDB/*.md
+!models_CommonDB/*.png
 
 # Exclude Jupyter notebook checkpoints
 .ipynb_checkpoints/

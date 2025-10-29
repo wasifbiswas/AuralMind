@@ -1,0 +1,20 @@
+# GPU-Accelerated Audio Processing Requirements
+# Install PyTorch with CUDA support first:
+# For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Core GPU acceleration (install with CUDA support as shown above)
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# DeepFilterNet 2 for GPU-accelerated speech enhancement
+deepfilternet>=0.5.0
+
+# Audio I/O with MP3 support (requires ffmpeg)
+soundfile>=0.12.0
+
+# Progress bars and utilities
+tqdm>=4.65.0
+
+# NumPy for compatibility
+numpy>=1.24.0

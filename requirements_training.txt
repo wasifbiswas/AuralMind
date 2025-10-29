@@ -1,0 +1,18 @@
+# Additional requirements for CNN + BiLSTM training pipeline
+
+# Deep Learning Framework (already installed)
+# torch>=2.0.0
+# torchaudio>=2.0.0
+
+# Machine Learning & Evaluation
+scikit-learn>=1.3.0
+pandas>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Already installed dependencies:
+# numpy>=1.24.0
+# tqdm>=4.65.0
+# transformers>=4.30.0

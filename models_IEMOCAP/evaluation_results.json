@@ -1,0 +1,25 @@
+{
+    "model_info": {
+        "model": "CNN + BiLSTM Encoder",
+        "task": "Audio Feature Classification (Unsupervised)",
+        "classifier": "MLP (2-layer)",
+        "num_classes": 5,
+        "input_features": "wav2vec2-large-xlsr-53 (1024-dim)",
+        "embedding_dim": 512
+    },
+    "training_metrics": {
+        "accuracy": 0.9681057954103461,
+        "f1_score_macro": 0.9729836968875617,
+        "f1_score_weighted": 0.9681954667632451,
+        "precision_macro": 0.9728802665231824,
+        "recall_macro": 0.9737407865326982
+    },
+    "test_metrics": {
+        "accuracy": 0.9704510108864697,
+        "f1_score_macro": 0.9728139734077692,
+        "f1_score_weighted": 0.9706238309296817,
+        "precision_macro": 0.9702617886732163,
+        "recall_macro": 0.9758410589733991
+    },
+    "timestamp": "2025-10-29 22:31:49"
+}
