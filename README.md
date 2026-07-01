@@ -1180,12 +1180,14 @@ weighted avg       0.98      0.98      0.98      9638
 If you use this code in your research, please cite:
 
 ```bibtex
-@software{auralmind2024,
-  title={AuralMind: Self-Supervised Audio Classification with CNN+BiLSTM},
-  author={Your Name},
-  year={2024},
-  url={https://github.com/wasifbiswas/AuralMind},
-  note={Achieves 97\% accuracy without labeled data using pseudo-labeling}
+@software{biswas2026auralmind,
+ author = {Wasif Biswas},
+ title = {AuralMind: Self-Supervised Audio Classification Framework},
+ year = {2026},
+ version = {1.0.0},
+ doi = {10.5281/zenodo.21112880},
+ url = {https://github.com/wasifbiswas/AuralMind},
+ license = {Apache-2.0}
 }
 ```
 
