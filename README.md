@@ -1229,7 +1229,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Author:** Wasif Biswas  
-**Email:** wasifbiswas@example.com  
+**Email:** wasifinc03@gmail.com.com  
 **GitHub:** [@wasifbiswas](https://github.com/wasifbiswas)  
 **Project Link:** [https://github.com/wasifbiswas/AuralMind](https://github.com/wasifbiswas/AuralMind)
 
