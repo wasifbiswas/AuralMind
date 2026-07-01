@@ -1,5 +1,7 @@
 # 🎙️ AuralMind - Self-Supervised Audio Classification
 
+[![DOI](https://zenodo.org/badge/1083668343.svg)](https://doi.org/10.5281/zenodo.21112879) 
+
 **Self-supervised learning pipeline for audio feature classification using CNN + BiLSTM encoder with iterative pseudo-labeling.** Achieves **97%+ accuracy** without labeled data using GPU-accelerated training on NVIDIA GPUs.
 
 ## ✨ Key Features
