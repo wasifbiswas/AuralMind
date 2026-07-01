@@ -2,6 +2,18 @@
 
 [![DOI](https://zenodo.org/badge/1083668343.svg)](https://doi.org/10.5281/zenodo.21112879) 
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![CUDA](https://img.shields.io/badge/CUDA-12.1+-76B900?logo=nvidia&logoColor=white)](https://developer.nvidia.com/cuda-toolkit)
+[![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-blue)](#)
+[![Status](https://img.shields.io/badge/Status-Stable-success)](#)
+
+Latest software DOI: https://doi.org/10.5281/zenodo.21112879
+
+Current release (v1.0.0): https://doi.org/10.5281/zenodo.21112880
+
+
 **Self-supervised learning pipeline for audio feature classification using CNN + BiLSTM encoder with iterative pseudo-labeling.** Achieves **97%+ accuracy** without labeled data using GPU-accelerated training on NVIDIA GPUs.
 
 ## ✨ Key Features
@@ -1215,7 +1227,7 @@ Contributions are welcome! Please:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache License 2.0. See the LICENSE file for details. - see the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -1233,8 +1245,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 **Author:** Wasif Biswas  
-**Email:** wasifinc03@gmail.com.com  
+**Email:** wasifinc03@gmail.com
+
+**ORCID:** https://orcid.org/0009-0004-2041-5315
+
 **GitHub:** [@wasifbiswas](https://github.com/wasifbiswas)  
+
 **Project Link:** [https://github.com/wasifbiswas/AuralMind](https://github.com/wasifbiswas/AuralMind)
 
 ---
@@ -1366,7 +1382,6 @@ python -c "import torch; print('CUDA Available:', torch.cuda.is_available()); pr
 
 ---
 
-_Made with ❤️ for the machine learning and audio processing community_
 
 **Solution: Install soundfile (already done if you followed steps)**
 
