@@ -1,31 +1,39 @@
 cff-version: 1.2.0
 
 title: "AuralMind"
-message: "If you use this software, please cite it as below."
+message: "If you use this software in your research, please cite it using the metadata provided in this file."
 
 type: software
 
 authors:
   - family-names: "Biswas"
     given-names: "Wasif"
+    orcid: "https://orcid.org/0009-0004-2041-5315"
 
 version: "1.0.0"
 
 date-released: "2026-07-01"
 
-license: Apache-2.0
+license: "Apache-2.0"
 
 repository-code: "https://github.com/wasifbiswas/AuralMind"
 url: "https://github.com/wasifbiswas/AuralMind"
 
 abstract: >
-  Self-supervised audio classification framework using CNN + BiLSTM,
-  iterative pseudo-labeling, GPU-accelerated training, and comprehensive
-  evaluation for speech and audio analysis.
+  AuralMind is a self-supervised audio classification framework that combines
+  a CNN + BiLSTM encoder with iterative pseudo-labeling to learn robust audio
+  representations without manual annotation. The framework includes
+  GPU-accelerated training, comprehensive evaluation, visualization tools,
+  and support for multiple speech and audio datasets.
 
 keywords:
-  - self-supervised learning
   - audio classification
+  - self-supervised learning
   - speech processing
+  - machine learning
   - deep learning
   - PyTorch
+  - CNN
+  - BiLSTM
+  - pseudo-labeling
+  - audio representation learning
